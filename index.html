@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matrika</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Navbar-->
+  <section id="nav1">
+    <nav class="navbar fixed-top navbar-expand-lg p-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-3 col-8">
+            <a href="/"><img class="logo1" src="https://matrika.gold/assets/Matrika%20Logo.png">
+              <img class="logo2" src="https://matrika.gold/assets/Mask%20group%20(2).png"></a>
+          </div>
+          <div class="col-lg-5 col-md-6 col-0">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form>
+                <select class="types">
+                  <option>Select categories</option>
+                  <option>Baju band</option>
+                  <option>nose pins</option>
+                  <option>ATM</option>
+                  <option>Lockets</option>
+                  <option>Earrings</option>
+                  <option>Haram</option>
+                  <option>Jhumka</option>
+                  <option>Necklace</option>
+                  <option>Rings</option>
+                  <option>Bracelets</option>
+                  <option>Bangles</option>
+
+                </select>
+              </form>
+            </div>
+          </div>
+        
+          
+          <div class="col-lg-3 col-md-3 col-2">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" data-bs-toggle="dropdown" aria-current="page" href="#"><i
+                    class="fa-regular fa-1x fa-user icon"></i>
+                    <div class="icon-text">Account</div></a>
+                <ul class="dropdown-menu">
+                  <h3 class="account">Your Account</h3>
+                  <p class="info">Track your orders,Manage Payment,Edit<br>Profile,And Much More...</p>
+                  <button class="submit" type="submit">Log In</button><br>
+                  <button class="signup" type="submit">Sign up</button>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-regular fa-1x fa-heart icon"></i>
+                  <div class="icon-text">Wishlist</div></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#"><i class="fa-solid fa-1x fa-bag-shopping icon"></i>
+                  <div class="icon-text">Cart</div></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!--navbar2-->
+  <section id="nav2">
+    
+    <nav class="navbar fixed-top navbar-expand-lg mt-5">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex" role="search" id="hidden">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav names">
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">Baju Band</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Kundan Baju</a></li>
+                <li><a class="dropdown-item" href="#">Band</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">Nose Pins</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Stone Nose Pin</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">ATM</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">ATM</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">Baju Band</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Kundan Baju</a></li>
+                <li><a class="dropdown-item" href="#">Band</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">Bangles</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">RUBY</a></li>
+                <li><a class="dropdown-item" href="#">EMERLAD</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">Mangalasutram</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Black Beeds</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">Lockets</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Stone Locket</a></li>
+                <li><a class="dropdown-item" href="#">The Modern Locket</a></li>
+                <li><a class="dropdown-item" href="#">Alphabets<br>Unisex Lockets</a></li>
+                <li><a class="dropdown-item" href="#">Red Rose<br>Lockets</a></li>
+                <li><a class="dropdown-item" href="#">Fancy Lockets</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">Earrings</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Tops</a></li>
+                <li><a class="dropdown-item" href="#">J Balis</a></li>
+                <li><a class="dropdown-item" href="#">Fancy Earrings</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link" data-bs-toggle="dropdown" aria-expanded="false" href="#">Haram</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Antique</a></li>
+                <li><a class="dropdown-item" href="#">HARAM SET</a></li>
+                <li><a class="dropdown-item" href="#">FANCY HAAR</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+    </nav>
+
+    </div>
+  </section>
+
+  <!-- carousel1 -->
+
+  <section id="carousel mt-5">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-05-09T12%3A39%3A26.763Z-Banner%202.jpg"
+            class="d-block w-100" alt="Mayur necklace">
+        </div>
+        <div class="carousel-item">
+          <img src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-05-09T12%3A41%3A10.078Z-Ring%20Banner%201.jpg"
+            class="d-block w-100" alt="qamar ring">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- liverates -->
+
+  <section class="mt-4 mb-3">
+    <div class="container-fluid liverates">
+      <div class="row">
+        <div class="col-lg-3 content">
+          <div>
+            <img class="rates" src="https://matrika.gold/assets/new%20blink.gif">
+          </div>
+          <div>
+            <p class="p1">Jun 03, 2024 at 09:35 AM<br>
+              <span class="p2">Live Rates</span>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 content">
+          <div>
+            <img class="gold-1" src="https://matrika.gold/assets/ingots%201%20(1).png">
+          </div>
+          <div>
+            <p class="p1">999 Purity<br>
+              <span class="p2">24k Gold:</span><span class="span-para">Rs 7397.62/gram</span>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 content">
+          <div>
+            <img class="gold-2" src="https://matrika.gold/assets/gold-chain%20(1)%201%20(1).png">
+          </div>
+          <div>
+            <p class="p1">916 Purity<br>
+              <span class="p2">22k Gold:</span><span class="span-para2">Rs 6783.29/gram</span>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 content">
+          <div>
+            <img class="silver" src="https://matrika.gold/assets/silver%201%20(1).png">
+          </div>
+          <div>
+            <p class="p1">999 Purity<br>
+              <span class="p2">Silver:</span><span class="span-para">Rs 92209.87/kg</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- heading1 -->
+
+  <section id="heading">
+    <p class="head">Shop by Categories</p>
+    <p class="head-down">"Explore our curated selection and shop with ease as you navigate through our diverse
+      categories.”</p>
+    <div class="contentimg text-center">
+      <img src="https://matrika.gold/assets/Frame.png">
+    </div>
+  </section>
+
+  <!-- categories -->
+
+  <section id="categories">
+    <div class="container">
+      <div class="row row-col-2 row-cols-lg-6 row-cols-md-4 g-2 g-lg-3">
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg1 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-05-23T04%3A23%3A28.979Z-8.png">
+            <p class="t1">Baju Band</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg2 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-27T04%3A28%3A44.110Z-Screenshot_27-4-2024_9583_.jpeg">
+            <p class="t2">Nose pins</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg3 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-25T07%3A04%3A28.914Z-bangle1.1.png">
+            <p class="t3">ATM</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg4 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-20T05%3A10%3A19.584Z-1.jpg">
+            <p class="t4">Mangalasutram</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg5 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-10T11%3A46%3A51.090Z-47.jpg">
+            <p class="t5">Lockets</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg6 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-10T11%3A42%3A36.023Z-1%20%2826%29.jpg">
+            <p class="t6">Earrings</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg7 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-10T11%3A39%3A32.888Z-97.jpg">
+            <p class="t7">Haaram</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg8 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-10T11%3A30%3A31.998Z-T%20%2832%29.jpg">
+            <p class="t8">Jhumka</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg9 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-10T11%3A29%3A35.942Z-1%20%2832%29.jpg">
+            <p class="t9">Necklace</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg10 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-15T09%3A24%3A36.622Z-download%20%282%29.jpg">
+            <p class="t10">Rings</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg11 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-24T10%3A13%3A21.977Z-1%20%2824%29.jpeg">
+            <p class="t11">Bracelets</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center image-container">
+            <img class="cimg12 mb-0"
+              src="https://goldbox-live.s3.ap-south-1.amazonaws.com/2024-04-24T09%3A59%3A23.830Z-2024-04-20T11_36_09.120Z-bagle1.jpg">
+            <p class="t12">Bangles</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- heading2 -->
+
+  <section id="heading">
+    <p class="head">Matrika Promises</p>
+    <p class="head-down">"The Promises that we'll never break."</p>
+    <div class="contentimg text-center">
+      <img src="https://matrika.gold/assets/Frame.png">
+    </div>
+  </section>
+
+  <!-- Promises -->
+
+  <section id="promises">
+    <div class="container">
+      <div class="row">
+        <div class="row row-cols-lg-8 row-cols-md-8 g-2 g-lg-3">
+          <div class="col">
+            <div class="prom1 text-center">
+              <img class="pic1" src="https://matrika.gold/assets/guaranteed.png">
+              <p class="pp1">Assured Lifetime<br>Maintenance</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="prom1 text-center">
+              <img class="pic1" src="https://matrika.gold/assets/gold-ingots%201.png">
+              <p class="pp1">Purity 24k(999<br>Purity)</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="prom1 text-center">
+              <img class="pic1" src="https://matrika.gold/assets/asset.png">
+              <p class="pp1">Easy<br>Exchange</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="prom1 text-center">
+              <img class="pic1" src="https://matrika.gold/assets/jewelry%20(8).png">
+              <p class="pp1">Your Jewellery is<br>Insured</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="prom1 text-center">
+              <img class="pic1" src="https://matrika.gold/assets/calendar.png">
+              <p class="pp1">14 Days Return<br>Policy</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="prom1 text-center">
+              <img class="pic1" src="https://matrika.gold/assets/transparency%20(2).png">
+              <p class="pp1">Guaranteed<br>Buypack</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="prom1 text-center">
+              <img class="pic1" src="https://matrika.gold/assets/safety.png">
+              <p class="pp1">Complete<br>Transperancy</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="prom1 text-center">
+              <img class="pic1" src="https://matrika.gold/assets/security%20(3).png">
+              <p class="pp1">Security</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- heading3 -->
+
+  <section id="heading">
+    <p class="head">A Special Gift</p>
+    <p class="head-down">"Unwrap joy with a touch of thoughtfulness – the perfect gift for those who matter most."</p>
+    <div class="contentimg text-center">
+      <img src="https://matrika.gold/assets/Frame.png">
+    </div>
+    <div class="long-image mt-3 text-center">
+      <img src="https://matrika.gold/assets/a%20special%20gift.png">
+    </div>
+  </section>
+
+  <!-- heading4 -->
+
+  <section id="heading">
+    <p class="head">Desirable Ornaments</p>
+    <p class="head-down">"Indulge in the allure of desire – adorn yourself with ornaments that captivate and enchant."</p>
+    <div class="contentimg text-center">
+      <img src="https://matrika.gold/assets/Frame.png">
+    </div>
+  </section>
+
+  <!-- blockimages -->
+
+  <section id="blockpics">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img class="pics1" src="https://matrika.gold/assets/Desirable%20Ornaments%201.png">
+          <img class="pics1" src="https://matrika.gold/assets/Desirable%20Ornaments%205.png">
+        </div>
+        <div class="col-md-3">
+          <img class="purple" src="https://matrika.gold/assets/Desirable%20Ornaments%206.png">
+        </div>
+        <div class="col-md-6">
+          <img class="bangles" src="https://matrika.gold/assets/Desirable%20Ornaments%203.png">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="pics2" src="https://matrika.gold/assets/Desirable%20Ornaments%204.png">
+            </div>
+            <div class="col-md-6">
+              <img class="pics2" src="https://matrika.gold/assets/Desirable%20Ornaments%202.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- heading5 -->
+  <section id="heading">
+    <p class="head">Deals of the Day</p>
+    <p class="head-down">"Unwrap Irresistible Deals with Our Exclusive Daily Offers!"</p>
+    <div class="contentimg text-center">
+      <img src="https://matrika.gold/assets/Frame.png">
+    </div>
+  </section>
+  
+<!-- footer -->
+
+<section id="footer">
+  <div class="footer-background">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <p class="mainheading">Matrika Collections</p>
+          <div class="line"></div>
+          <div class="list">
+            <p class="l1">Baju Band</p>
+          </div>
+          <div class="list">
+            <p class="l2">Nose Pins</p>
+          </div>
+          <div class="list">
+            <p class="l3">ATM</p>
+          </div> 
+          <div class="list">
+            <p class="l4">Mangalasutram</p>
+          </div>
+          <div class="list">
+            <p class="l5">Lockets</p>
+          </div>
+          <div class="list">
+            <p class="l6">Earrings</p>
+          </div>
+          <div class="list">
+            <p class="l7">Haram</p>
+          </div>
+          <div class="list">
+            <p class="l8">View More</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <p class="mainheading">Matrika Promises</p>
+          <div class="line"></div>
+          <div class="list">
+            <p class="l1">Assured Lifetime Maintenance</p>
+          </div>
+          <div class="list">
+            <p class="l2">Purity 24k(999 purity)</p>
+          </div>
+          <div class="list">
+            <p class="l3">Easy Exchange</p>
+          </div> 
+          <div class="list">
+            <p class="l4">Your Jewellery is Insured</p>
+          </div>
+          <div class="list">
+            <p class="l5">14 Days Return policy</p>
+          </div>
+          <div class="list">
+            <p class="l6">Guaranteed BuyPack</p>
+          </div>
+          <div class="list">
+            <p class="l7">Complete Transperancy</p>
+          </div>
+          <div class="list">
+            <p class="l8">Security</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <p class="mainheading">Contact Us</p>
+          <div class="line"></div>
+          <p class="contact">Call: 040-4013 7575</p>
+          <p class="contact">What's app: 91600 06724</p>
+          <p class="contact">Email: info@goldsikka.com</p>
+          <p class="contact">Working Hours:Mon-Sat(9:30 am to 6:30 pm)</p>
+          <p class="contact">Note:2nd & 4th Saturdays Holidays</p>  
+      </div>
+      <div class="col-md-3">
+        <p class="mainheading">Follow Us</p>
+          <div class="line"></div>
+          <div class="social-media">
+            <a href="#"><img src="https://matrika.gold/assets/Frame%20(6).png"></a>
+            <a href="#"><img src="https://matrika.gold/assets/instagram.png"></a>
+            <a href="#"><img src="https://matrika.gold/assets/Frame%20(8).png"></a>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="copyright">2023-2024 Goldsikka Ltd.Design by:<span class="span-para">X-YUG Technologies</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+    </script>
+</body>
+
+</html>
